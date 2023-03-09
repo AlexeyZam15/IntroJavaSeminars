@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0725c096-bed3-4e34-8725-6f5ab6e951f8" name="Changes" comment="added additional_homework01" />
+    <list default="true" id="0725c096-bed3-4e34-8725-6f5ab6e951f8" name="Changes" comment="added homework02">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678187496373</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added homework02">
+      <created>1678188111085</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678188111085</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -122,6 +132,7 @@
     <MESSAGE value="added seminar01" />
     <MESSAGE value="added seminar02" />
     <MESSAGE value="added additional_homework01" />
-    <option name="LAST_COMMIT_MESSAGE" value="added additional_homework01" />
+    <MESSAGE value="added homework02" />
+    <option name="LAST_COMMIT_MESSAGE" value="added homework02" />
   </component>
 </project>
