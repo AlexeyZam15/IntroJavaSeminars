@@ -54,8 +54,8 @@ public class Main {
 //            System.out.println("Время выполнения: " + (System.currentTimeMillis() - begin));
 
 //            Метод 3
-            sort(orderIndexes, data, 4);
-            sort(orderIndexes, data, 5);
+            bubbleIndexesSort(orderIndexes, data, 4);
+            bubbleIndexesSort(orderIndexes, data, 5);
 
             specialPrintArrayList(data, orderIndexes);
         }
@@ -143,7 +143,7 @@ public class Main {
         return minElementIndex;
     }
 
-    static void sort(int[] orderIndexes, ArrayList<String[]> data, int column) {
+    static void bubbleIndexesSort(int[] orderIndexes, ArrayList<String[]> data, int column) {
         for (int count = 0; count < orderIndexes.length; count++) {
             boolean sorted = true;
             for (int i = 0; i < orderIndexes.length - 1; i++) {
