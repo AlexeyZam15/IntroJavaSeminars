@@ -40,10 +40,10 @@ public class Main {
 //            long begin = System.currentTimeMillis();
 
 //            Метод 1
-            String[][] array = getSortedArray(data, 4, orderIndexes, true);
-            orderIndexes = getIndexesArray(array);
-            array = getSortedArray(data, 5, orderIndexes, true);
-            orderIndexes = getIndexesArray(array);
+//            String[][] array = getSortedArray(data, 4, orderIndexes, true);
+//            orderIndexes = getIndexesArray(array);
+//            array = getSortedArray(data, 5, orderIndexes, true);
+//            orderIndexes = getIndexesArray(array);
 
 //            Метод 2
 //            String[][] array = getSortedArray(data, 4, orderIndexes, false);
@@ -52,6 +52,10 @@ public class Main {
 //            orderIndexes = getSortedArrayIndexes(array);
 
 //            System.out.println("Время выполнения: " + (System.currentTimeMillis() - begin));
+
+//            Метод 3
+            sort(orderIndexes, data, 4);
+            sort(orderIndexes, data, 5);
 
             specialPrintArrayList(data, orderIndexes);
         }
@@ -137,6 +141,28 @@ public class Main {
             }
         }
         return minElementIndex;
+    }
+
+    static void sort(int[] orderIndexes, ArrayList<String[]> data, int column) {
+        for (int count = 0; count < orderIndexes.length; count++) {
+            boolean sorted = true;
+            for (int i = 0; i < orderIndexes.length - 1; i++) {
+                if (column == 4) {
+                    if (Integer.parseInt(data.get(orderIndexes[i])[column]) > Integer.parseInt(data.get(orderIndexes[i + 1])[column])) {
+                        int t = orderIndexes[i + 1];
+                        orderIndexes[i + 1] = orderIndexes[i];
+                        orderIndexes[i] = t;
+                        sorted = false;
+                    }
+                } else if (data.get(orderIndexes[i])[column].charAt(0) > data.get(orderIndexes[i + 1])[column].charAt(0)) {
+                    int t = orderIndexes[i + 1];
+                    orderIndexes[i + 1] = orderIndexes[i];
+                    orderIndexes[i] = t;
+                    sorted = false;
+                }
+            }
+            if (sorted) break;
+        }
     }
 
 }
