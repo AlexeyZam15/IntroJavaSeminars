@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0725c096-bed3-4e34-8725-6f5ab6e951f8" name="Changes" comment="changed seminar04">
+    <list default="true" id="0725c096-bed3-4e34-8725-6f5ab6e951f8" name="Changes" comment="added seminar05">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework05/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework05/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,27 +42,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/wolfy/Downloads/IntroJavaSeminars&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/wolfy/Downloads/IntroJavaSeminars/src/main/java/homework05",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="1" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="seminar04.Main" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wolfy\Downloads\IntroJavaSeminars\src\main\java\homework05" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.homework05">
+    <configuration name="homework05" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="homework05.Main" />
       <module name="IntroJavaSeminars" />
       <option name="REDIRECT_INPUT" value="true" />
-      <option name="INPUT_FILE" value="$PROJECT_DIR$/src/main/java/seminar04/input.txt" />
+      <option name="INPUT_FILE" value="$PROJECT_DIR$/src/main/java/homework05/input.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.homework05" />
+      <item itemvalue="Application.seminar04" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -190,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678976170325</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added seminar05">
+      <created>1679067168248</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1679067168248</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -204,7 +222,8 @@
     <MESSAGE value="added homework03" />
     <MESSAGE value="added seminar04" />
     <MESSAGE value="changed seminar04" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed seminar04" />
+    <MESSAGE value="added seminar05" />
+    <option name="LAST_COMMIT_MESSAGE" value="added seminar05" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
